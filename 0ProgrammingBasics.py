@@ -59,4 +59,16 @@
 # for i in range(2,even*2+1,2):
 #     print(i,end=",")
 
+#     # 6. Function :A function is a reusable block of code that performs a specific task.
+# def fact(f): # Paramiters
+#     if f == 1:
+#         return 1
+#     else:
+#         fac = f*fact(f-1)
+#         return fac
+# f = int(input("Enter a number to find Factorial: "))
+# print(f"Factorial of {f}  = {fact(f)}") # Arguments
+
+
+
 
