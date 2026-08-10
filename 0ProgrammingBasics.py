@@ -28,20 +28,35 @@
 # else: 
 #     print("you are adult.")
 
-    # if-elif-else
-marks = int(input("Enter marks:"))
+#     # if-elif-else
+# marks = int(input("Enter marks:"))
 
-if 90<marks<=100:
-    print("O")
-elif 80<marks<=90:
-    print("E")
-elif 70<marks<=80:
-    print("A")
-elif 60<marks<=70:
-    print("B")
-elif 50<marks<=60:
-    print("c")
-elif 40<marks<=50:
-    print("D")
-else:
-    print("F, Faild!...!")
+# if 90<marks<=100:
+#     print("O")
+# elif 80<marks<=90:
+#     print("E")
+# elif 70<marks<=80:
+#     print("A")
+# elif 60<marks<=70:
+#     print("B")
+# elif 50<marks<=60:
+#     print("c")
+# elif 40<marks<=50:
+#     print("D")
+# else:
+#     print("F, Faild!...!")
+
+#     # 4. While loop: A loop is used to execute the same block of code repeatedly.
+# c = 0
+# while c<5: # While condition is true execute block of code.
+#     print("Khanra")
+#     c+=1
+
+#     # 5. For loop
+
+# even = int(input("Enter how many you want: "))
+
+# for i in range(2,even*2+1,2):
+#     print(i,end=",")
+
+
