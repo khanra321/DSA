@@ -19,16 +19,29 @@
 # x,y = map(int,input("EnterTwoValueBySpace:").split())
 # print(f"{x} + {y} = {x+y}")
 
-    # 3. if-else: if-else is used for decision making.
+#     # 3. if-else: if-else is used for decision making.
 
+# age = int(input("Enter your age:"))
 
-age = int(input("Enter your age:"))
+# if age < 18:
+#     print("You are minor")
+# else: 
+#     print("you are adult.")
 
-if age < 18:
-    print("You are minor")
-else: 
-    print("you are adult.")
+    # if-elif-else
+marks = int(input("Enter marks:"))
 
-
-
-
+if 90<marks<=100:
+    print("O")
+elif 80<marks<=90:
+    print("E")
+elif 70<marks<=80:
+    print("A")
+elif 60<marks<=70:
+    print("B")
+elif 50<marks<=60:
+    print("c")
+elif 40<marks<=50:
+    print("D")
+else:
+    print("F, Faild!...!")
