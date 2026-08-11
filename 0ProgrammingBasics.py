@@ -73,6 +73,7 @@
 # for i in range(len(arr)):
 #     print(i,arr[i])
 
-    # 8. String 
+    # 8. String: A string is a sequence of characters.
+
 
 
