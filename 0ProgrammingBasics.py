@@ -67,13 +67,13 @@
 # arr = list(map(int,input().split()))
 # print(arr[2])
 # for i in arr:
-#     print(i,end=",")
+#     print(i,end=",")  # Traversal
 # arr[1] = 55
 # print("\n",arr)
 # for i in range(len(arr)):
 #     print(i,arr[i])
 
     # 8. String: A string is a sequence of characters.
-
-
+s = "Hello"
+print(s[0])
 
