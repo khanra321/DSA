@@ -1,5 +1,4 @@
 #   # 1. veriable: Veriable is a container that contain data(int, float, char, Bool)
-
 # age =23
 # name ="Akash"
 # Hight =5.4
@@ -20,9 +19,7 @@
 # print(f"{x} + {y} = {x+y}")
 
 #     # 3. if-else: if-else is used for decision making.
-
 # age = int(input("Enter your age:"))
-
 # if age < 18:
 #     print("You are minor")
 # else: 
@@ -30,7 +27,6 @@
 
 #     # if-elif-else
 # marks = int(input("Enter marks:"))
-
 # if 90<marks<=100:
 #     print("O")
 # elif 80<marks<=90:
@@ -53,9 +49,7 @@
 #     c+=1
 
 #     # 5. For loop
-
 # even = int(input("Enter how many you want: "))
-
 # for i in range(2,even*2+1,2):
 #     print(i,end=",")
 
@@ -69,6 +63,16 @@
 # f = int(input("Enter a number to find Factorial: "))
 # print(f"Factorial of {f}  = {fact(f)}") # Arguments
 
+#     # 7. Array/list : An array is a collection of elements stored in an ordered structure.
+# arr = list(map(int,input().split()))
+# print(arr[2])
+# for i in arr:
+#     print(i,end=",")
+# arr[1] = 55
+# print("\n",arr)
+# for i in range(len(arr)):
+#     print(i,arr[i])
 
+    # 8. String 
 
 
