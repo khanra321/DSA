@@ -86,12 +86,12 @@
 # new_st = (st[::-1])
 # print(new_st)
 
-    # 9. Recurtion: it has two part 1.base case 2. Recursive call.
+#     # 9. Recurtion: it has two part 1.base case 2. Recursive call.
 
-def fact(f):
-    if f == 1: #Base case
-        return 1
-    f = f * fact(f-1) #Recursive call
-    return f
-f = int(input("Enter a number to find factorial: "))
-print(f"Factorial of {f} = {fact(f)}")
+# def fact(f):
+#     if f == 1: #Base case
+#         return 1
+#     f = f * fact(f-1) #Recursive call
+#     return f
+# f = int(input("Enter a number to find factorial: "))
+# print(f"Factorial of {f} = {fact(f)}")
