@@ -73,7 +73,12 @@
 # for i in range(len(arr)):
 #     print(i,arr[i])
 
-    # 8. String: A string is a sequence of characters.
-s = "Hello"
-print(s[0])
+#     # 8. String: A string is a sequence of characters.
+# s = input("Enter a string:")
+# print(s[0])
+# for ch in s:
+#     print(ch, end=",")
+# print("\n",s[::-1])
+
+    #Palindrom
 
