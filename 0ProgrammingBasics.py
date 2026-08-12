@@ -80,5 +80,8 @@
 #     print(ch, end=",")
 # print("\n",s[::-1])
 
-    #Palindrom
-
+#     #Palindrom
+# st = int(input("Enter a number: "))
+# st = str(st)
+# new_st = (st[::-1])
+# print(new_st)
