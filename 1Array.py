@@ -13,12 +13,16 @@
 # arr2 = arr1
 # arr1.append(4)
 # print(arr2)
-#     # Sum of all element
+
+#     # 2. Sum of all element
 # arr = [1,2,3,4,5]
 # sum = 0
-
 # for i in arr:
 #     sum += i
 # print(sum)
+
+#     # using sume function
+# arr = [1,2,3,4,5]
+# print(sum(arr))
 
 
