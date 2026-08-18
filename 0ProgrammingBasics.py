@@ -86,6 +86,23 @@
 # new_st = (st[::-1])
 # print(new_st)
 
+#     # By Loop
+# s = input("Enter a string to check palindrom or not: ")
+# L = 0
+# R = len(s)-1
+# palindrom = True
+# while L < R:
+#     if s[L] != s[R]:
+#         palindrom = False
+#         break
+#     L += 1
+#     R -= 1
+# if palindrom:
+#     print("It is palindrom.")
+# else:
+#     print("Not palindrom.")
+
+
 #     # 9. Recurtion: it has two part 1.base case 2. Recursive call.
 
 # def fact(f):
