@@ -49,3 +49,4 @@
 #         break
 # else:
 #     print(f"{tar} is not found in this array.")
+ 
