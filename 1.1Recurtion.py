@@ -40,3 +40,12 @@
 #     return a * pow(a, p-1)
 # b,q = map(int, input("Enter two number to find power:").split())
 # print(pow(b,q))
+
+    # 6. Fibonicci
+def fibo(f):
+    if f <= 1:
+        return f
+    return fibo(f-1) + fibo(f-2)
+n = int(input("Enter a number calculate 1 to N: "))
+for i in range(n):
+    print(fibo(i), end=" ")
