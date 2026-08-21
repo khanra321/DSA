@@ -33,3 +33,10 @@
 # p = int(input("Enter a number calculate 1 to N: "))
 # print(sum(p))
 
+#     # 5. Power
+# def pow(a, p):
+#     if p == 0:
+#         return 1
+#     return a * pow(a, p-1)
+# b,q = map(int, input("Enter two number to find power:").split())
+# print(pow(b,q))
