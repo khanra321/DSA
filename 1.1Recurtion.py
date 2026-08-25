@@ -41,11 +41,23 @@
 # b,q = map(int, input("Enter two number to find power:").split())
 # print(pow(b,q))
 
-    # 6. Fibonicci
-def fibo(f):
-    if f <= 1:
-        return f
-    return fibo(f-1) + fibo(f-2)
-n = int(input("Enter a number calculate 1 to N: "))
-for i in range(n):
-    print(fibo(i), end=" ")
+#     # 6. Fibonicci
+# def fibo(f):
+#     if f <= 1:
+#         return f
+#     return fibo(f-1) + fibo(f-2)
+# n = int(input("Enter a number calculate 1 to N: "))
+# for i in range(n):
+#     print(fibo(i), end=" ")
+
+    # 7. string reverse using recurtion
+def reverse(s):
+
+    if len(s) <= 1:
+        return s
+
+    return reverse(s[1:]) + s[0]
+
+
+print(reverse("hello"))
+    
