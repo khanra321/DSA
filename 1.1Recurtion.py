@@ -50,6 +50,24 @@
 # for i in range(n):
 #     print(fibo(i), end=" ")
 
+    # Or
+num = int(input(" Enter how many fibonacci you want: "))
+
+print(0)
+print(1)
+count = 2
+
+def fibo(a,b):
+    global count
+    if count < num:
+        a,b = b,(a+b)
+        count += 1
+        print(b)
+        fibo(a,b)
+    else:
+        return
+fibo(0,1)
+
     # 7. string reverse using recurtion
 # def reverse(s):
 #     if len(s) <= 1:
