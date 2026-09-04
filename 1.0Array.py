@@ -49,4 +49,12 @@
 #         break
 # else:
 #     print(f"{tar} is not found in this array.")
- 
+
+arr = [15,24,20,6,57,24,3,16,2,27]
+
+min = arr[0]
+
+for i in arr:
+    if min > i:
+        min = i
+print(f"min = {min}")
