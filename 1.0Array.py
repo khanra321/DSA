@@ -50,11 +50,13 @@
 # else:
 #     print(f"{tar} is not found in this array.")
 
-arr = [15,24,20,6,57,24,3,16,2,27]
+#     # 5. Min
 
-min = arr[0]
+# arr = [15,24,20,6,57,24,3,16,2,27]
 
-for i in arr:
-    if min > i:
-        min = i
-print(f"min = {min}")
+# min = arr[0]
+
+# for i in arr:
+#     if min > i:
+#         min = i
+# print(f"min = {min}")
