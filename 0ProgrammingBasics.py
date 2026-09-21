@@ -127,12 +127,23 @@
 
     # Reverce
 
-def count(n):
-    if n == 0:
-        return
+# def count(n):
+#     if n == 0:
+#         return
 
-    count(n - 1)
-    print(n)
+#     count(n - 1)
+#     print(n)
 
 
-count(5)
+# count(5)
+
+
+    # Reverse String
+def reverse_string(s):
+    if len(s) == 0:
+        return ""
+
+    return reverse_string(s[1:]) + s[0]
+
+
+print(reverse_string("hello"))
