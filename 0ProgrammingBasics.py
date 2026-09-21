@@ -114,12 +114,25 @@
 # print(f"Factorial of {f} = {fact(f)}")
 
 
+# def count(n):
+#     if n == 0:       # Base Case
+#         return
+
+#     print(n)
+#     count(n - 1)     # Recursive Call
+
+
+# count(5)
+
+
+    # Reverce
+
 def count(n):
-    if n == 0:       # Base Case
+    if n == 0:
         return
 
+    count(n - 1)
     print(n)
-    count(n - 1)     # Recursive Call
 
 
 count(5)
