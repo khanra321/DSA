@@ -112,3 +112,14 @@
 #     return f
 # f = int(input("Enter a number to find factorial: "))
 # print(f"Factorial of {f} = {fact(f)}")
+
+
+def count(n):
+    if n == 0:       # Base Case
+        return
+
+    print(n)
+    count(n - 1)     # Recursive Call
+
+
+count(5)
